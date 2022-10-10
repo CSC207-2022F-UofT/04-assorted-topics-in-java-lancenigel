@@ -48,7 +48,7 @@ class DrivableMap {
 
         boolean check = false;
         for (Drivable value: drivable_map.values()){
-            if (value.getMaxSpeed() > speed){
+            if (value.getMaxSpeed() >= speed){
                 check = true;
             }
         }
